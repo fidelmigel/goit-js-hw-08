@@ -1,0 +1,23 @@
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding-left: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+#name-input::placeholder {
+  color: #2e2f42;
+}
+
+.name-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.04px;
+}

@@ -1,0 +1,71 @@
+#controls {
+  display: flex;
+  width: 486px;
+  height: 104px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  column-gap: 16px;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  text-align: center;
+}
+
+/* Приховати стрілки для поля вводу типу "number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04px;
+  border: none;
+  color: #ffffff;
+}
+
+#controls button[data-create] {
+  background-color: #4e75ff;
+}
+
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+#controls button[data-create]:hover {
+  background-color: #6c8cff;
+}
+
+#controls button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  margin-top: 16px;
+  border-radius: 8px;
+}
