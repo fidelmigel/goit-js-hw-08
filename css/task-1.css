@@ -1,0 +1,37 @@
+#categories {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  padding: 24px;
+  row-gap: 24px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 392px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.item h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.04px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.item ul li {
+  width: 100%;
+  line-height: 40px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
